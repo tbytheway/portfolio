@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.bg {
+  background-image: url("https://img.freepik.com/free-photo/background-flora-spring-closeup-petal_1172-437.jpg?size=626&ext=jpg");
+  height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffe600;
+  opacity: 0.8;
+}
+
+.header img {
+  width: 150px;
+  padding: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffe600;
+  opacity: 0.8;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: grey;
+}
+
+.title {
+  color: black;
+  font-size: 30px;
+  font-family: "Lobster";
+}
+
+.bodyText {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer .bees {
+  background-color: yellow;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer .ideas {
+  background-color: yellow;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer .hives {
+  background-color: yellow;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer .help {
+  background-color: yellow;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer .honey {
+  background-color: yellow;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer .stings {
+  background-color: yellow;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px 10px 0 0;
+}
+/*# sourceMappingURL=style.css.map */
