@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body, html {
+height: 100%;
+margin: 0;
+}
+@mixin footer ($background-color, $color, $padding) {
+ background-color: $background-color;
+ color: $color;
+ padding: $padding;
+  border-radius: 10px 10px 0 0;
+
+}
+@mixin body {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 10px;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+.bg {
+    background-image: url("https://img.freepik.com/free-photo/background-flora-spring-closeup-petal_1172-437.jpg?size=626&ext=jpg");
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height:100vh;
+}  
+.header {
+ 
+display:flex;
+ justify-content: space-between;
+   background-color:rgb(255, 230, 0);
+  opacity: 0.8;
+img {
+    width:150px;
+    padding:10px;
+   
+  }
+ }
+.topnav {
+  overflow: hidden;
+  background-color:rgb(255, 230, 0);
+  opacity: 0.8;
+  justify-content: right;
+}
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  
+  color: grey;
+}
+.title {
+    color: black;
+    font-size: 30px;
+    font-family: "Lobster"
+}
+.bodyText {
+  @include body;
+ }
+#footer {
+ position: absolute;
+bottom: 0;
+
+}
+.footer {
+display: flex;
+justify-content: space-evenly;
+font-style: italic;
+font-weight: bold; 
+font-size: 20px;
+text-decoration: none;  
+   
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.footer .bees {
+  @include footer(yellow, black, 20px 40px);
+}
+.footer .ideas {
+    @include footer(yellow, black, 20px 40px);
+}
+.footer .hives {
+    @include footer(yellow, black, 20px 40px);
+}
+.footer .help {
+    @include footer(yellow, black, 20px 40px);
+} 
+.footer .honey {
+    @include footer(yellow, black, 20px 40px);
+}
+.footer .stings {
+    @include footer(yellow, black, 20px 40px);
+}
