@@ -84,6 +84,9 @@ a:visited {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   font-style: italic;
   font-weight: bold;
   font-size: 20px;
